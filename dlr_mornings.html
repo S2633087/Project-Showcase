@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 8th Edition
+      Tutorial 6
+      Review Assignment
+
+      DLR Morning Schedule
+      Author: Cynthia Brown
+      Date:   3/30/25
+
+      Filename:   dlr_mornings.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>DLR Morning Schedule</title>
+   <link href="dlr_reset2.css" rel="stylesheet" />
+   <link href="dlr_styles2.css" rel="stylesheet" /> 
+   <link href="dlr_tables2.css" rel="stylesheet" />
+   <link href="dlr_columns2.css" rel="stylesheet" />       
+</head>
+
+<body>
+   <header>
+      <h1>Listener Supported <em>Since</em> 1975</h1>
+      <nav>
+         <a id="navicon" href="#"><img src="dlr_navicon2.png" alt="" /></a>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Listen Live</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <div id="container">
+   
+      <section id="main"> 
+         <img src="dlr_logo2.png" alt="DLR" />
+         <h2>DLR Morning Schedule</h2>
+         <p>DLR airs listener-supported public radio in Bismarck, North Dakota from 
+            5:00 a.m. to 10:30 p.m. <br />You can <a href="#">Listen Live</a> to streaming audio 
+            of our broadcast or download programs from our <a href="#">Podcast</a>. 
+            <br />Please refer below for our current morning schedule.</p>
+
+            <table class="programs">
+               <caption>All Times Central</caption>
+               <colgroup>
+                  <col class="timeColumn">
+                  <col class="wDayColumns" span="5">
+                  <col class="wEndColumns" span="2">
+               </colgroup>
+               <thead>
+                  <tr>
+                     <th>Time</th>
+                     <th>Monday</th>
+                     <th>Tuesday</th>
+                     <th>Wednesday</th>
+                     <th>Thursday</th>
+                     <th>Friday</th>
+                     <th>Saturday</th>
+                     <th>Sunday</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <th>5:00 AM</th>
+                     <td colspan="5">Morning News</td>
+                     <td colspan="2">Weekend Review</td>
+                  </tr>
+                  <tr>
+                     <th>5:30 AM</th>
+                     <td colspan="5">Market Report</td>
+                     <td colspan="2">Weekend Stories</td>
+                  </tr>
+                  <tr>
+                     <th>6:00 AM</th>
+                     <td colspan="5">Morning Edition</td>
+                     <td colspan="2">Weekend Edition</td>
+                  </tr>
+                  <tr>
+                     <th>6:30 AM</th>
+                     <td colspan="5">Morning Edition</td>
+                     <td colspan="2">Weekend Edition</td>
+                  </tr>
+                  <tr>
+                     <th>7:00 AM</th>
+                     <td colspan="5">Local News & Weather</td>
+                     <td colspan="2">Saturday Spotlight</td>
+                  </tr>
+                  <tr>
+                     <th>7:30 AM</th>
+                     <td colspan="5">World News Update</td>
+                     <td colspan="2">Sunday Reflections</td>
+                  </tr>
+                  <tr>
+                     <th>8:00 AM</th>
+                     <td colspan="5">Community Forum</td>
+                     <td colspan="2">Weekend Music Hour</td>
+                  </tr>
+                  <tr>
+                     <th>8:30 AM</th>
+                     <td colspan="5">Interview Hour</td>
+                     <td colspan="2">Weekend Music Hour</td>
+                  </tr>
+                  <tr>
+                     <th>9:00 AM</th>
+                     <td colspan="5">Arts & Culture</td>
+                     <td colspan="2">Jazz Hour</td>
+                  </tr>
+                  <tr>
+                     <th>9:30 AM</th>
+                     <td colspan="5">Science Today</td>
+                     <td colspan="2">Jazz Hour</td>
+                  </tr>
+                  <tr>
+                     <th>10:00 AM</th>
+                     <td colspan="5">Political Roundtable</td>
+                     <td colspan="2">Weekend Review</td>
+                  </tr>
+                  <tr>
+                     <th>10:30 AM</th>
+                     <td colspan="5">Business Report</td>
+                     <td colspan="2">Weekend Review</td>
+                  </tr>
+                  <tr>
+                     <th>11:00 AM</th>
+                     <td colspan="5">Midday Talk</td>
+                     <td colspan="2">Classical Hour</td>
+                  </tr>
+                  <tr>
+                     <th>11:30 AM</th>
+                     <td colspan="5">Health & Wellness</td>
+                     <td colspan="2">Classical Hour</td>
+                  </tr>
+               </tbody>
+               <tfoot>
+                  <tr>
+                     <td colspan="8">Support your Public Radio Station</td>
+                  </tr>
+               </tfoot>
+            </table>
+            
+      </section>
+      
+   </div>
+   
+   <footer>
+      DLR &#183; 4300 Magnolia Lane &#183; Bismarck, ND 58504 &#183; (701) 555 - 5611
+   </footer>
+</body>
+
+</html>
